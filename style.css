@@ -1,0 +1,96 @@
+.h3{
+    font-size: 1.5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+.h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    color: black;
+}
+
+.flexContainerB {
+    display: flex;
+    margin-right:10%;
+    margin-left: 10%;
+    position: relative;
+
+}
+
+.flexItem {
+    flex-basis: 50%;
+    display: inline-block;
+}
+
+.background{
+    background-color:white;
+}
+
+.border{
+    border-top-color: white;
+    border-top-style: solid;
+    border-top-width: 50px;
+    border-right-color: white;
+    border-right-style: solid;
+    border-right-width: 50px;
+    border-bottom-color:white;
+    border-bottom-style: solid;
+    border-bottom-width: 50px;
+    border-left-color: white;
+    border-left-style: solid;
+    border-left-width: 50px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+  }
+
+/*Links at top of page*/
+
+a {
+    color:black;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:link{
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline rgb(216, 29, 122);
+}
+
+
+.Footer{
+    color:black;
+    background-color: white;
+    font-size: 1.1em;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em 1em 1em 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
+}
